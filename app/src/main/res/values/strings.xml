@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">BookingMaxi</string>
+    <string name="app_forgot_pass">Forgot Password</string>
+    <string name="app_login">Login</string>
+    <string name="app_loginlabel">LOGIN</string>
+    <string name="app_aboutlabel">ABOUT</string>
+    <string name="app_settinglabel">SETTING</string>
+    <string name="app_registerlabel">REGISTER</string>
+    <string name="or">or</string>
+    //.....login......
+    <string name="username">  Username</string>
+    <string name="password">Password</string>
+    //.................................
+
+    //..........register...........
+    <string name="fullname">     Full Name</string>
+    <string name="email">Email</string>
+    <string name="phonno">Phone Number</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="termsandconditions">Terms And Condition</string>
+    <string name="iaccept">I Accept The</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_my_profile">My Profile</string>
+    <string name="menu_book_now">Book Now</string>
+    <string name="menu_services">Services</string>
+    <string name="menu_offers">Offers</string>
+    <string name="menu_contact_us">Contact Us</string>
+    <string name="menu_history">History</string>
+    <string name="menu_logout">Logout</string>
+    <string name="title_activity_navigation_home">NavigationHome</string>
+
+    //..................................
+
+
+    //facebbok
+    <string name="facebook_app_id">2451621278382700</string>
+    <string name="fb_login_protocol_scheme">fb2451621278382700</string>
+    //.........................
+
+
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+</resources>

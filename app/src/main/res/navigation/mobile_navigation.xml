@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/mob_nav_MyProfile">
+
+    <fragment
+        android:id="@+id/mob_nav_MyProfile"
+        android:name="com.hnweb.bookingmaxi.Fragment.MyProfile"
+        android:label="@string/menu_my_profile"
+        tools:layout="@layout/myprofile_fragment" />
+
+    <fragment
+        android:id="@+id/mob_nav_BookNow"
+        android:name="com.hnweb.bookingmaxi.Fragment.BookNow"
+        android:label="@string/menu_book_now"
+        tools:layout="@layout/booknow_fragment" />
+
+    <fragment
+        android:id="@+id/mob_nav_Services"
+        android:name="com.hnweb.bookingmaxi.Fragment.Services"
+        android:label="@string/menu_services"
+        tools:layout="@layout/services_fragment" />
+
+    <fragment
+        android:id="@+id/mob_nav_Offers"
+        android:name="com.hnweb.bookingmaxi.Fragment.Offers"
+        android:label="@string/menu_contact_us"
+        tools:layout="@layout/offers_fragment" />
+
+    <fragment
+        android:id="@+id/mob_nav_ContactUs"
+        android:name="com.hnweb.bookingmaxi.Fragment.ContactUs"
+        android:label="@string/menu_history"
+        tools:layout="@layout/contactus_fragment" />
+
+
+</navigation>

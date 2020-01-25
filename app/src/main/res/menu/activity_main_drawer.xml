@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_my_profile"
+            android:icon="@mipmap/my_profile"
+            android:title="@string/menu_my_profile" />
+        <item
+            android:id="@+id/nav_book_now"
+            android:icon="@mipmap/services"
+            android:title="@string/menu_book_now" />
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@mipmap/services"
+            android:title="@string/menu_services" />
+        <item
+            android:id="@+id/nav_offers"
+            android:icon="@mipmap/offer"
+            android:title="@string/menu_offers" />
+
+        <item
+            android:id="@+id/nav_contact_us"
+            android:icon="@mipmap/contact_ud"
+            android:title="@string/menu_contact_us" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@mipmap/services"
+            android:title="@string/menu_history" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@mipmap/services"
+            android:title="@string/menu_logout" />
+    </group>
+
+
+
+</menu>

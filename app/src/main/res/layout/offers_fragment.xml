@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/white_bg"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_above="@+id/l1"
+        >
+
+       <ListView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/listview"
+
+
+           />
+
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@color/colorbookmax"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentBottom="true"
+
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Call Now -"
+            android:layout_gravity="center"
+            android:textColor="@color/colorwhite"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/txt_callnow"
+
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="125678"
+            android:layout_gravity="center"
+            android:textColor="@color/colorwhite"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/txt_callnumber"
+
+
+            />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
